@@ -2,7 +2,7 @@
 <?php
 session_start();
 //echo"<script>alert('welcome')</script>";
-if($_POST["t1"]=="abcd"&&$_POST["t2"]=="123")
+if($_POST["t1"]=="jeevankv18@gmail.com"&&$_POST["t2"]=="123")
 {
      $_SESSION['user']="Jeevan";
     $con = mysqli_connect("localhost","root","","Petshop_management");
